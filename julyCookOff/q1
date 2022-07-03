@@ -1,0 +1,22 @@
+#include<bits/stdc++.h>
+#define ll long long int 
+#define fio ios::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL)
+using namespace std;
+
+void solve(){
+  ll n,x,y;
+  cin>>n>>x>>y;
+
+  if(x+2*y<=n)cout<<"yes"<<endl;
+  else cout<<"no"<<endl;
+
+}
+
+int main(){
+    ll t;
+  cin>>t;
+    while(t--){
+        solve();
+    }
+    return 0;
+}
