@@ -1,0 +1,24 @@
+#include<bits/stdc++.h>
+#define ll long long int 
+#define fio ios::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL)
+using namespace std;
+
+void solve(){
+  ll x;
+  cin>>x;
+
+  ll ans=x%3;
+  if(ans==0)cout<<0<<endl;
+  else if(ans==1)cout<<2<<endl;
+  else cout<<1<<endl;
+
+}
+
+int main(){
+    ll t;
+  cin>>t;
+    while(t--){
+        solve();
+    }
+    return 0;
+}
