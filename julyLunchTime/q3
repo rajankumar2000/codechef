@@ -1,0 +1,29 @@
+#include<bits/stdc++.h>
+#define ll long long int 
+#define fio ios::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL)
+using namespace std;
+
+void solve(){
+ll x,y,z;
+cin>>x>>y>>z;
+
+ll bk;
+if(x%3==0){
+	bk=(x/3)-1;
+}else{
+	bk=x/3;
+}
+
+
+cout<<x*y+bk*z<<endl;
+
+}
+
+int main(){
+    ll t;
+  cin>>t;
+    while(t--){
+        solve();
+    }
+    return 0;
+}
